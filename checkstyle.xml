@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.2//EN" "http://www.puppycrawl.com/dtds/configuration_1_2.dtd">
+<module name="Checker">
+    <module name="FileTabCharacter" />
+
+    <module name="TreeWalker">
+        <module name="UnusedImports" />
+        <module name="LeftCurly" />
+        <module name="RightCurly" />
+        <module name="NeedBraces" />
+        <module name="TypecastParenPad" />
+        <module name="WhitespaceAround">
+            <property name="allowEmptyConstructors" value="true" />
+            <property name="allowEmptyMethods" value="true" />
+            <property name="allowEmptyTypes" value="true" />
+            <property name="allowEmptyLambdas" value="true" />
+            <property name="allowEmptyCatches" value="true" />
+        </module>
+    </module> 
+
+    <module name="RegexpSingleline">
+        <property name="format" value="[^*]\s+$" />
+        <property name="message" value="Trailing spaces are not allowed." />
+    </module>
+</module>

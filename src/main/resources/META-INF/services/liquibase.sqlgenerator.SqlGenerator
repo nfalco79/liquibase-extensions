@@ -1,0 +1,2 @@
+liquibase.ext.nfalco79.CopyColumnGenerator
+liquibase.ext.nfalco79.CreateIndexGeneratorDB2
