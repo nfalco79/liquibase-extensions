@@ -4,7 +4,7 @@ This liquibase extensions cover cases not managed by liquibase-core library.
 <dependency>
     <groupId>com.thedigitalstack.liquibase</groupId>
     <artifactId>liquibase-ext</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -17,7 +17,7 @@ In order to use them in liquibase files you have to add the following schema def
 <databaseChangeLog ...
     xmlns:nfalco79="http://www.liquibase.org/xml/ns/dbchangelog-ext/nfalco79"
     xsi:schemaLocation="...
-        http://www.liquibase.org/xml/ns/dbchangelog-ext/nfalco79 liquibase/ext/nfalco79/dbchangelog-nfalco79.xsd">
+        http://www.liquibase.org/xml/ns/dbchangelog-ext/nfalco79 https://www.liquibase.org/liquibase/ext/nfalco79/dbchangelog-nfalco79.xsd">
 ```
 
 ## ChangeSet
