@@ -7,7 +7,7 @@
     </parent>
     <artifactId>liquibase-ext</artifactId>
     <name>Liquibase extensions</name>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <url>https://github.com/nfalco79/liquibase-extensions</url>
 
     <issueManagement>
@@ -19,7 +19,7 @@
         <url>https://github.com/nfalco79/liquibase-extensions</url>
         <connection>scm:git:git@github.com:nfalco79/liquibase-extensions.git</connection>
         <developerConnection>scm:git:git@github.com:nfalco79/liquibase-extensions.git</developerConnection>
-        <tag>1.0.0</tag>
+        <tag>1.0.1</tag>
     </scm>
 
     <properties>
