@@ -2,7 +2,7 @@ This liquibase extensions cover cases not managed by liquibase-core library.
 
 ```xml
 <dependency>
-    <groupId>com.thedigitalstack.liquibase</groupId>
+    <groupId>com.github.nfalco79</groupId>
     <artifactId>liquibase-ext</artifactId>
     <version>1.0.1</version>
 </dependency>
